@@ -1,0 +1,127 @@
+def pieces(word):
+    return list(word)
+a = ".- "
+b = "-... "
+c = "-.-. "
+d = "-.. "
+e = ". "
+f = "..-. "
+g = "--. "
+h = ".... "
+i = ".. "
+j = ".--- "
+k = "-.- "
+l = ".-.. "
+m = "-- "
+n = "-. "
+o = "--- "
+p = ".--. "
+q = "--.- "
+r = ".-. "
+s = "... "
+t = "- "
+u = "..- "
+v = "...- "
+w = ".-- "
+x = "-..- "
+y = "-.-- "
+z = "--.. "
+mp = "/ "
+me = "! "
+mq = "? "
+one = ".---- "
+two = "..--- "
+three = "...-- "
+four = "....- "
+five = "..... "
+six = "-.... "
+seven = "--... "
+eight = "---.. "
+nine = "----. "
+zero = "----- "
+
+input_string = input("Type Anything To Get It Back In Morse! :").lower()
+word_list = input_string.split()
+for word in word_list:
+	letter_list = pieces(word)
+	for letter in letter_list:
+		if letter == "a":
+			print(a, end = '')
+		elif letter == "b":
+			print(b, end = '')
+		elif letter == "c":
+			print(c, end = '')
+		elif letter == "d":
+			print(d, end = '')
+		elif letter == "e":
+			print(e, end = '')
+		elif letter == "f":
+			print(f, end = '')
+		elif letter == "g":
+			print(g, end = '')
+		elif letter == "h":
+			print(h, end = '')
+		elif letter == "i":
+			print(i, end = '')
+		elif letter == "j":
+			print(j, end = '')
+		elif letter == "k":
+			print(k, end = '')
+		elif letter == "l":
+			print(l, end = '')
+		elif letter == "m":
+			print(m, end = '')
+		elif letter == "n":
+			print(n, end = '')
+		elif letter == "o":
+			print(o, end = '')
+		elif letter == "p":
+			print(p, end = '')
+		elif letter == "q":
+			print(q, end = '')
+		elif letter == "r":
+			print(r, end = '')
+		elif letter == "s":
+			print(s,end = '')
+		elif letter == "t":
+			print(t, end = '')
+		elif letter == "u":
+			print(u, end = '')
+		elif letter == "v":
+			print(v, end = '')
+		elif letter == "w":
+			print(w, end = '')
+		elif letter == "x":
+			print(x, end = '')
+		elif letter == "y":
+			print(y, end = '')
+		elif letter == "z":
+			print(z, end = '')
+		elif letter == ".":
+			print(mp, end = '')
+		elif letter == "?":
+			print(mq, end = '')
+		elif letter == "!":
+			print(me, end = '')
+		elif letter == "1":
+			print(one, end = '')
+		elif letter == "2":
+			print(two, end = '')
+		elif letter == "3":
+			print(three, end = '')
+		elif letter == "4":
+			print(four, end = '')
+		elif letter == "5":
+			print(five, end = '')
+		elif letter == "6":
+			print(six, end = '')
+		elif letter == "7":
+			print(seven, end = '')
+		elif letter == "8":
+			print(eight, end = '')
+		elif letter == "9":
+			print(nine, end = '')
+		elif letter == "0":
+			print(zero, end = '')
+	
+	print("   ",end = '')
